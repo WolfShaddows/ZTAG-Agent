@@ -1,0 +1,6 @@
+### REPORTE DE CUMPLIMIENTO ZERO TRUST (NSA v1.0) ###
+
+[FALLO] Actividad Privileged Access Management - Prohibe credenciales hardcodeadas.
+   - Causa: Ruta de sistema o credenciales expuestas en texto plano.
+[FALLO] Actividad Deny by Default - Requiere verificacion estricta de cada flujo.
+   - Causa: Confianza implicita en entrada de usuario (SQL Injection).
