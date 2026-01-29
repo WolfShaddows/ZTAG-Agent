@@ -27,3 +27,11 @@ El sistema separa la **Auditoria de Cumplimiento** de la **Remediacion de Codigo
 1. Colocar el manual NSA en `/knowledge/1769475823091.pdf`
 2. Ejecutar `python main.py`
 3. Revisar resultados en `/results`
+
+##  Matriz de Cumplimiento (NSA v1.0)
+
+| Actividad NSA | Riesgo Detectado | Remediacion ZTAG | Estado |
+| :--- | :--- | :--- | :--- |
+| **1.4.1 PAM** | Credenciales Hardcodeadas | Inyeccion de Env Vars |  Corregido |
+| **2.4.1 Trust** | SQL & Command Injection | Parametrizacion Estricta |  Corregido |
+| **7.3.1 Logs** | Falta de Auditoria | Estructura para Logging |  Listo |
